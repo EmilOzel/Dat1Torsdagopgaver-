@@ -1,1 +1,3 @@
-# Dat1Torsdagopgaver-
+# Dat1Torsdagopgaver
+Emil Ozel
+cph-eo97@stud.ek.dk 
