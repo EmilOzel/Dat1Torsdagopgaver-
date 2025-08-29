@@ -25,6 +25,7 @@ void setup() {
 }
 void draw() {
 
+  ellipse(x, y, circleSize, circleSize);
 
   x = circleSize*counter;
   y = circleSize*rowCounter;
@@ -38,7 +39,6 @@ void draw() {
   // If not, the last value will.
   counter =  frameCount % numberOfCircles == 0 ? 0 : counter+1;
   rowCounter =  counter==0 ? rowCounter+1:rowCounter;
-  ellipse(x, y, circleSize, circleSize);
 
 
   // Explaining the modulus operator
@@ -50,5 +50,5 @@ void draw() {
   //Add the code for 6.c here
   red = rowCounter == 0? (int) random(255) : red;
   blue = rowCounter == 0? (int) random(255) : blue;
-  green = rowCounter == 0? (int) random(255) : blue;
+  green = rowCounter == 0? (int) random(255) : green;
 }
