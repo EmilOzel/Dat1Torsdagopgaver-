@@ -37,9 +37,26 @@ void methodTwo()
   }
 
   // Print the name of the weekday here:
+  if (weekDay == 0)
+println("monday");
 
+  if (weekDay == 1)
+println("tuesday");
 
+  if (weekDay == 2)
+println("wednesday");
+
+  if (weekDay == 3)
+println("thursday");
+
+  if (weekDay == 4)
+println("friday");
 
   // Print if it is weekend here:
-  
+
+    if (weekDay == 5)
+println("it is saturday");
+
+    if (weekDay == 6)
+println("it is sunday");
 }

@@ -1,4 +1,3 @@
-void setup() {
   String month = "februar";
   int days = 0;
 
@@ -26,5 +25,3 @@ void setup() {
   
 }
   println("der " + "er " + days + " dage " +"i " + month + " måned ");
-
-}
