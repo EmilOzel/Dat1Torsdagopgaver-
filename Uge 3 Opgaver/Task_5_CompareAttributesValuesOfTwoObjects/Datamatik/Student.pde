@@ -5,7 +5,6 @@ class Student {
   int datamatikTeam;
 
 
-
   Student(String tmpname, int tmpage, boolean tmpisFemale, int tmpdatamatikTeam) {
     name = tmpname;
     age = tmpage;
