@@ -9,4 +9,8 @@ class Teacher {
     age = tmpage;
     isFemale = tmpisFemale;
   }
+
+  void changeName(String newName) {
+    name=newName;
+  }
 }
