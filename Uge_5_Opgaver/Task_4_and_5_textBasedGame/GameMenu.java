@@ -1,15 +1,16 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class GameMenu{
+public class GameMenu{
 	
 	private ArrayList<String> actions;
 
 
-	public objects(ArrayList<String> actions){
-		this.actions = new actions;
+	public GameMenu(ArrayList<String> actions){
+		this.actions = actions;
 
-		
+		}
+
 		public void displayMenu() {
 			for (String action : actions) {
 				System.out.println(action);
@@ -26,11 +27,9 @@ class GameMenu{
 			return choice;
 		}
 		
-			public String getAction() {
-				return promptUser();
-			}
+		public String getAction() {
+			return promptUser();
+		}
 		
 
 	}
-
-}
