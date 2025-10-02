@@ -11,6 +11,7 @@ public class GuessANumber {
         System.out.println( "I'm thinking of a number between 1 and 100 (including both).");
         System.out.println( "Can you guess what it is?...");
         makeAGuess();
+        System.out.println("Thanks for playing");
     }
 
 

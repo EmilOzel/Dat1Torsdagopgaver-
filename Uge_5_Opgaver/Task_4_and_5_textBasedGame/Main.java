@@ -16,7 +16,7 @@ class Main{
 		
 		GameMenu.displayMenu();
 
-		String userChoice = GameMenu.getAction();
+		String userChoice = GameMenu.promptUser();
 
 		int choice = Integer.parseInt(userChoice);
 
